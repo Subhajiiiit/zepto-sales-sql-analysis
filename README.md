@@ -1,5 +1,6 @@
 # zepto-sales-sql-analysis
 SQL analysis project on Zepto sales/product dataset using MySQL
+```sql
 
 use portfolio;
 
@@ -108,3 +109,4 @@ FROM (
     FROM zepto_v2
 ) ranked
 WHERE rnk <= 3;
+```
